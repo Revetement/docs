@@ -1,375 +1,1164 @@
 ### URL
-`https://s3-eu-west-1.amazonaws.com/twa-game-data.twaservers.com/{DEFAULTS}`
+`https://s3.cn-north-1.amazonaws.com.cn/twa-game-data.arena.neshgameservers.com/defaults/defaults.{ID}.json`
 
 ### Method
 `GET`
 
 ### Sample request
-`https://s3-eu-west-1.amazonaws.com/twa-game-data.twaservers.com/rc-defaults-build-20180730_174437-1433978-25918`
+`https://s3.cn-north-1.amazonaws.com.cn/twa-game-data.arena.neshgameservers.com/defaults/defaults.7E20032889A53731BF83DC7F3C96ADB0.json
 
 ### Sample response
 
 ```json
 {
-	"default_profile": ["default_profile_silver_cents", "tier_1_bar_ambiorix_cxp", "tier_1_bar_arminius_cxp", "tier_1_bar_boudica_cxp", "tier_1_bar_caratacus_cxp", "tier_1_bar_vercingetorix_cxp", "tier_1_car_hannibal_cxp", "tier_1_car_hasdrubal_cxp", "tier_1_gre_alexander_cxp", "tier_1_gre_cynane_cxp", "tier_1_gre_epaminondas_cxp", "tier_1_gre_eumenes_cxp", "tier_1_gre_leonidas_cxp", "tier_1_gre_miltiades_cxp", "tier_1_gre_pyrrhus_cxp", "tier_1_gre_seleucus_cxp", "tier_1_rom_augustus_cxp", "tier_1_rom_caesar_cxp", "tier_1_rom_germanicus_cxp", "tier_1_rom_marcus_aurelius_cxp", "tier_1_rom_marius_cxp", "tier_1_rom_scipio_cxp", "tier_1_rom_spartacus_cxp", "tier_1_rom_sulla_cxp", "tier_1_rom_trajan_cxp", "purchase_bar_arminius_free_xp_cents", "purchase_gre_cynane_free_xp_cents", "purchase_rom_germanicus_free_xp_cents", "purchase_rom_rome_anim_test_falx_inf_no_shield_free_xp_cents", "purchase_rom_rome_anim_test_spear_cav_shield_free_xp_cents", "purchase_rom_rome_anim_test_spear_inf_no_shield_free_xp_cents", "purchase_rom_rome_anim_test_spear_inf_shield_free_xp_cents", "purchase_rom_rome_anim_test_sword_cav_no_shield_free_xp_cents", "purchase_rom_rome_anim_test_sword_cav_shield_free_xp_cents", "purchase_rom_rome_anim_test_sword_inf_no_shield_free_xp_cents", "purchase_rom_rome_anim_test_sword_inf_shield_free_xp_cents", "purchase_rom_arverni_bar_riders_free_xp_cents", "purchase_rom_arverni_bar_tribesmen_free_xp_cents", "purchase_rom_carthage_car_mercenary_rabble_free_xp_cents", "purchase_rom_athens_gre_mycenaean_archers_free_xp_cents", "purchase_rom_athens_gre_mycenaean_hoplites_free_xp_cents", "purchase_rom_rome_rom_pedites_free_xp_cents", "purchase_rom_rome_rom_tirones_free_xp_cents", "unlock_archer_arrow_free_xp_cents", "unlock_archer_dagger_free_xp_cents", "unlock_bar_armour_leather_basic_free_xp_cents", "unlock_bar_armour_leather_chosen_free_xp_cents", "unlock_bar_armour_leather_dacian_free_xp_cents", "unlock_bar_armour_leather_female_boiled_free_xp_cents", "unlock_bar_armour_leather_feral_free_xp_cents", "unlock_bar_armour_leather_warrior_free_xp_cents", "unlock_bar_bow_cernunnos_free_xp_cents", "unlock_bar_bow_great_free_xp_cents", "unlock_bar_bow_hunting_free_xp_cents", "unlock_bar_bow_simple_free_xp_cents", "unlock_bar_bow_warrior_night_free_xp_cents", "unlock_bar_braids_free_xp_cents", "unlock_bar_braids_knotted_free_xp_cents", "unlock_bar_braids_simple_free_xp_cents", "unlock_bar_buckler_splintered_free_xp_cents", "unlock_bar_chainmail_noble_free_xp_cents", "unlock_bar_chainmail_proven_free_xp_cents", "unlock_bar_chainmail_warrior_free_xp_cents", "unlock_bar_chest_bare_low_free_xp_cents", "unlock_bar_chest_bare_med_free_xp_cents", "unlock_bar_coolus_free_xp_cents", "unlock_bar_falx_common_free_xp_cents", "unlock_bar_hair_limewash_tousled_free_xp_cents", "unlock_bar_hood_hunting_free_xp_cents", "unlock_bar_hood_warrior_night_free_xp_cents", "unlock_bar_knots_free_xp_cents", "unlock_bar_knots_noble_free_xp_cents", "unlock_bar_knots_warrior_free_xp_cents", "unlock_bar_knots_wild_free_xp_cents", "unlock_bar_locks_scrappy_free_xp_cents", "unlock_bar_locks_unkempt_free_xp_cents", "unlock_bar_locks_wild_free_xp_cents", "unlock_bar_loincloth_free_xp_cents", "unlock_bar_longsword_free_xp_cents", "unlock_bar_longsword_runed_free_xp_cents", "unlock_bar_mantle_leather_free_xp_cents", "unlock_bar_mantle_sheep_free_xp_cents", "unlock_bar_mantle_wolf_free_xp_cents", "unlock_bar_naked_free_xp_cents", "unlock_bar_no_greaves_free_xp_cents", "unlock_bar_no_shield_free_xp_cents", "unlock_bar_romphaphia_free_xp_cents", "unlock_bar_sandals_free_xp_cents", "unlock_bar_shield_hex_free_xp_cents", "unlock_bar_shield_hex_damaged_free_xp_cents", "unlock_bar_shield_oval_free_xp_cents", "unlock_bar_shield_oval_cracked_free_xp_cents", "unlock_bar_shield_oval_strong_free_xp_cents", "unlock_bar_shortsword_simple_free_xp_cents", "unlock_bar_spear_bronze_split_free_xp_cents", "unlock_bar_spear_heavy_free_xp_cents", "unlock_bar_spear_long_gnarled_free_xp_cents", "unlock_bar_sword_bronze_dented_free_xp_cents", "unlock_bar_sword_iron_simple_free_xp_cents", "unlock_bar_trousers_patchwork_shabby_free_xp_cents", "unlock_bar_trousers_patchwork_worn_free_xp_cents", "unlock_bar_trousers_standard_free_xp_cents", "unlock_bar_trousers_warrior_night_free_xp_cents", "unlock_bar_tunic_basic_free_xp_cents", "unlock_bar_tunic_female_basic_free_xp_cents", "unlock_bar_tunic_female_noble_free_xp_cents", "unlock_bar_tunic_ragged_free_xp_cents", "unlock_bar_warpaint_rider_free_xp_cents", "unlock_bonus_vs_cav_free_xp_cents", "unlock_car_armour_disc_discounted_free_xp_cents", "unlock_car_armour_disc_sturdy_free_xp_cents", "unlock_car_boeotian_mercenary_free_xp_cents", "unlock_car_boeotian_mercenary_distinguished_free_xp_cents", "unlock_car_cap_iberian_fitted_free_xp_cents", "unlock_car_catera_iberian_majestic_free_xp_cents", "unlock_car_catera_rebel_free_xp_cents", "unlock_car_chested_bare_free_xp_cents", "unlock_car_coolus_gallic_blessed_free_xp_cents", "unlock_car_cuirass_wealthy_free_xp_cents", "unlock_car_elephant_armour_majestic_plate_free_xp_cents", "unlock_car_elephant_armour_padding_free_xp_cents", "unlock_car_elephant_armour_strong_plate_free_xp_cents", "unlock_car_elephant_armour_war_free_xp_cents", "unlock_car_falcata_mercenary_affordable_free_xp_cents", "unlock_car_falcata_mercenary_balanced_free_xp_cents", "unlock_car_greaves_fitted_free_xp_cents", "unlock_car_greaves_greek_free_xp_cents", "unlock_car_greaves_no_free_xp_cents", "unlock_car_greaves_numidian_free_xp_cents", "unlock_car_greaves_samnite_free_xp_cents", "unlock_car_greaves_sterling_free_xp_cents", "unlock_car_headwrap_glorious_free_xp_cents", "unlock_car_helmet_no_free_xp_cents", "unlock_car_hood_feral_free_xp_cents", "unlock_car_hoplon_carthaginian_budget_free_xp_cents", "unlock_car_hoplon_carthaginian_busted_free_xp_cents", "unlock_car_hoplon_carthaginian_majestic_free_xp_cents", "unlock_car_hoplon_carthaginian_scavenged_free_xp_cents", "unlock_car_hoplon_carthaginian_simple_free_xp_cents", "unlock_car_hoplon_carthaginian_sturdy_free_xp_cents", "unlock_car_hoplon_majestic_free_xp_cents", "unlock_car_howdah_basic_free_xp_cents", "unlock_car_howdah_mighty_free_xp_cents", "unlock_car_javelin_carthaginian_basic_free_xp_cents", "unlock_car_linothorax_carthaginian_discounted_free_xp_cents", "unlock_car_linothorax_carthaginian_distinguished_free_xp_cents", "unlock_car_linothorax_gallic_barbaric_free_xp_cents", "unlock_car_linothorax_gallic_formidable_free_xp_cents", "unlock_car_linothorax_mercenary_free_xp_cents", "unlock_car_longsword_barbaric_free_xp_cents", "unlock_car_montefortino_gallic_blessed_free_xp_cents", "unlock_car_phrygian_mercenary_exceptional_free_xp_cents", "unlock_car_phrygian_mercenary_quality_free_xp_cents", "unlock_car_pylos_mercenary_modest_free_xp_cents", "unlock_car_pylos_mercenary_quality_free_xp_cents", "unlock_car_pylos_mercenary_scavenged_free_xp_cents", "unlock_car_pylos_mercenary_simple_free_xp_cents", "unlock_car_scutum_mercenary_exceptional_free_xp_cents", "unlock_car_scutum_mercenary_majestic_free_xp_cents", "unlock_car_shield_animal-skin_decorative_free_xp_cents", "unlock_car_shield_animal-skin_elite_free_xp_cents", "unlock_car_shield_animal-skin_sturdy_free_xp_cents", "unlock_car_shield_oval_barbaric_free_xp_cents", "unlock_car_shield_oval_carthaginian_budget_free_xp_cents", "unlock_car_shield_oval_carthaginian_expensive_free_xp_cents", "unlock_car_shield_oval_carthaginian_sturdy_free_xp_cents", "unlock_car_shield_wooden_gallic_reinforced_free_xp_cents", "unlock_car_spear_barbarian_gnarled_free_xp_cents", "unlock_car_spear_cavalry_free_xp_cents", "unlock_car_spear_cavalry_balanced_free_xp_cents", "unlock_car_spear_mercenary_affordable_free_xp_cents", "unlock_car_spear_mercenary_balanced_free_xp_cents", "unlock_car_spear_mercenary_decent_free_xp_cents", "unlock_car_spear_mercenary_exquisite_free_xp_cents", "unlock_car_spear_mercenary_refined_free_xp_cents", "unlock_car_spear_numidian_free_xp_cents", "unlock_car_spear_numidian_refined_free_xp_cents", "unlock_car_spear_scavenged_free_xp_cents", "unlock_car_thracian_mercenary_admirable_free_xp_cents", "unlock_car_thracian_mercenary_decent_free_xp_cents", "unlock_car_thracian_mercenary_modest_free_xp_cents", "unlock_car_trousers_bound_free_xp_cents", "unlock_car_trousers_hunting_free_xp_cents", "unlock_car_tunic_african_basic_free_xp_cents", "unlock_car_tunic_african_sublime_free_xp_cents", "unlock_car_tunic_iberian_fine_free_xp_cents", "unlock_car_tunic_phoenician_basic_free_xp_cents", "unlock_car_tunic_phoenician_thick_free_xp_cents", "unlock_car_tusk_mighty_blades_free_xp_cents", "unlock_car_tusk_tusks_free_xp_cents", "unlock_car_tusk_vicious_blades_free_xp_cents", "unlock_default_helmet_hook_free_xp_cents", "unlock_gre_aspis_free_xp_cents", "unlock_gre_aspis_athenian_starter_free_xp_cents", "unlock_gre_aspis_hellenic_free_xp_cents", "unlock_gre_aspis_thureos_free_xp_cents", "unlock_gre_boeotian_free_xp_cents", "unlock_gre_boeotian_classic_free_xp_cents", "unlock_gre_boeotian_hellenic_free_xp_cents", "unlock_gre_bow_archaic_basic_free_xp_cents", "unlock_gre_brimmed_hat_free_xp_cents", "unlock_gre_corinthian_brilliant_free_xp_cents", "unlock_gre_corinthian_classic_free_xp_cents", "unlock_gre_corinthian_hellenic_free_xp_cents", "unlock_gre_corinthian_hellenic_exquisite_free_xp_cents", "unlock_gre_corinthian_simple_free_xp_cents", "unlock_gre_corinthian_thebian_starter_free_xp_cents", "unlock_gre_crescent_shield_free_xp_cents", "unlock_gre_cuirass_classic_companion_free_xp_cents", "unlock_gre_doru_archaic_free_xp_cents", "unlock_gre_doru_archaic_brittle_free_xp_cents", "unlock_gre_doru_classic_free_xp_cents", "unlock_gre_doru_hellenic_free_xp_cents", "unlock_gre_felt_hat_free_xp_cents", "unlock_gre_greaves_agema_free_xp_cents", "unlock_gre_greaves_archaic_free_xp_cents", "unlock_gre_greaves_classic_free_xp_cents", "unlock_gre_greaves_hellenic_free_xp_cents", "unlock_gre_helmet_thracian_free_xp_cents", "unlock_gre_helmet_thracian_lesbos_starter_free_xp_cents", "unlock_gre_hoplon_archaic_athenian_starter_free_xp_cents", "unlock_gre_hoplon_archaic_busted_free_xp_cents", "unlock_gre_hoplon_archaic_macedonian_starter_free_xp_cents", "unlock_gre_hoplon_archaic_simple_free_xp_cents", "unlock_gre_hoplon_classic_agema_spear_starter_free_xp_cents", "unlock_gre_hoplon_hellenic_free_xp_cents", "unlock_gre_hoplon_hellenic_hypaspists_starter_free_xp_cents", "unlock_gre_kontos_free_xp_cents", "unlock_gre_kopis_free_xp_cents", "unlock_gre_linothorax_archaic_scrappy_free_xp_cents", "unlock_gre_linothorax_classic_agema_cavalry_starter_free_xp_cents", "unlock_gre_linothorax_hellenic_free_xp_cents", "unlock_gre_phrygian_classic_free_xp_cents", "unlock_gre_phrygian_hellenic_free_xp_cents", "unlock_gre_pylos_free_xp_cents", "unlock_gre_pylos_grand_free_xp_cents", "unlock_gre_pylos_simple_free_xp_cents", "unlock_gre_sarissa_free_xp_cents", "unlock_gre_sarissa_athenian_free_xp_cents", "unlock_gre_sarissa_hellenic_free_xp_cents", "unlock_gre_scale_legs_free_xp_cents", "unlock_gre_sling_hellenic_free_xp_cents", "unlock_gre_sling_simple_free_xp_cents", "unlock_gre_tunic_archaic_shabby_free_xp_cents", "unlock_gre_xyston_free_xp_cents", "unlock_gre_xyston_agema_free_xp_cents", "unlock_gre_xyston_companion_free_xp_cents", "unlock_gre_xyston_hellenic_free_xp_cents", "unlock_greek_hair_greek_free_xp_cents", "unlock_no_greaves_greek_free_xp_cents", "unlock_no_greaves_roman_free_xp_cents", "unlock_no_harness_free_xp_cents", "unlock_no_helmet_free_xp_cents", "unlock_no_shield_greek_free_xp_cents", "unlock_no_training_free_xp_cents", "unlock_premium_unit_arrow_free_xp_cents", "unlock_premium_unit_bow_free_xp_cents", "unlock_premium_unit_shield_free_xp_cents", "unlock_premium_unit_spear_free_xp_cents", "unlock_premium_unit_sword_free_xp_cents", "unlock_rom_apollonian_calculation_tables_free_xp_cents", "unlock_rom_augustan_bolts_free_xp_cents", "unlock_rom_augustan_calculation_tables_free_xp_cents", "unlock_rom_augustan_frame_free_xp_cents", "unlock_rom_augustan_joints_free_xp_cents", "unlock_rom_augustan_windlass_crank_free_xp_cents", "unlock_rom_ballista_joints_free_xp_cents", "unlock_rom_basic_joints_free_xp_cents", "unlock_rom_basic_light_artillery_frame_free_xp_cents", "unlock_rom_boeotian_strengthened_free_xp_cents", "unlock_rom_cavalry_helmet_free_xp_cents", "unlock_rom_chestplate_basic_free_xp_cents", "unlock_rom_coolus_free_xp_cents", "unlock_rom_cuirass_imperial_free_xp_cents", "unlock_rom_cuirass_muscle_free_xp_cents", "unlock_rom_cuirass_plain_free_xp_cents", "unlock_rom_discens_toolkit_free_xp_cents", "unlock_rom_estimated_calculations_free_xp_cents", "unlock_rom_exact_vitruvian_ballista_frame_free_xp_cents", "unlock_rom_gladius_battle_scarred_free_xp_cents", "unlock_rom_gladius_eagle_starter_free_xp_cents", "unlock_rom_gladius_fine_free_xp_cents", "unlock_rom_gladius_fulham_free_xp_cents", "unlock_rom_gladius_mainz_free_xp_cents", "unlock_rom_gladius_pompeii_free_xp_cents", "unlock_rom_greaves_augustan_free_xp_cents", "unlock_rom_greaves_cavalry_free_xp_cents", "unlock_rom_greaves_imperial_superior_free_xp_cents", "unlock_rom_greaves_light_free_xp_cents", "unlock_rom_greaves_republican_free_xp_cents", "unlock_rom_helmet_palatini_free_xp_cents", "unlock_rom_imperial_ballista_ammunition_free_xp_cents", "unlock_rom_imperial_ballista_frame_free_xp_cents", "unlock_rom_imperial_bolts_free_xp_cents", "unlock_rom_imperial_scorpion_frame_free_xp_cents", "unlock_rom_imperial_segmentata_free_xp_cents", "unlock_rom_imperial_toolkit_free_xp_cents", "unlock_rom_italic_free_xp_cents", "unlock_rom_javelin_imperial_free_xp_cents", "unlock_rom_javelin_republican_brittle_free_xp_cents", "unlock_rom_light_ballista_ammunition_free_xp_cents", "unlock_rom_light_ballista_frame_free_xp_cents", "unlock_rom_light_bolts_free_xp_cents", "unlock_rom_lion_pelt_free_xp_cents", "unlock_rom_lorica_hamata_basic_free_xp_cents", "unlock_rom_lorica_hamata_dense_free_xp_cents", "unlock_rom_lorica_segmentata_free_xp_cents", "unlock_rom_lorica_segmentata_eagle_starter_free_xp_cents", "unlock_rom_lorica_squamata_free_xp_cents", "unlock_rom_military_issue_ammunition_free_xp_cents", "unlock_rom_montefortino_late_free_xp_cents", "unlock_rom_montefortino_simple_free_xp_cents", "unlock_rom_pectorale_free_xp_cents", "unlock_rom_scavenged_ammunition_free_xp_cents", "unlock_rom_scorpion_bolts_free_xp_cents", "unlock_rom_scorpion_crew_toolkit_free_xp_cents", "unlock_rom_scorpion_frame_free_xp_cents", "unlock_rom_scutum_augustan_masterwork_free_xp_cents", "unlock_rom_scutum_augustan_sturdy_free_xp_cents", "unlock_rom_scutum_augustan_superior_free_xp_cents", "unlock_rom_scutum_eagle_free_xp_cents", "unlock_rom_scutum_imperial_free_xp_cents", "unlock_rom_scutum_large_free_xp_cents", "unlock_rom_scutum_republican_reinforced_free_xp_cents", "unlock_rom_scutum_republican_worn_free_xp_cents", "unlock_rom_shield_oval_free_xp_cents", "unlock_rom_shield_oval_superior_free_xp_cents", "unlock_rom_shield_round_cracked_free_xp_cents", "unlock_rom_simple_frame_free_xp_cents", "unlock_rom_spatha_balanced_free_xp_cents", "unlock_rom_spear_cavalry_free_xp_cents", "unlock_rom_spear_cavalry_legionary_starter_free_xp_cents", "unlock_rom_standard_frame_free_xp_cents", "unlock_rom_standard_joints_free_xp_cents", "unlock_rom_standard_rope_spring_free_xp_cents", "unlock_rom_superior_augustan_joints_free_xp_cents", "unlock_rom_superior_ballista_joints_free_xp_cents", "unlock_rom_torsion_spring_free_xp_cents", "unlock_rom_tunic_military_cloaked_free_xp_cents", "unlock_rom_tunic_military_thick_free_xp_cents", "unlock_rom_tunic_plebian_free_xp_cents", "unlock_rom_tunic_ragged_free_xp_cents", "unlock_rom_vespa_frame_free_xp_cents", "unlock_rom_vitruvian_ammunition_free_xp_cents", "unlock_rom_vitruvian_ballista_ammunition_free_xp_cents", "unlock_rom_vitruvian_ballista_joints_free_xp_cents", "unlock_rom_vitruvian_onager_frame_free_xp_cents", "unlock_rom_vitruvian_scorpion_frame_free_xp_cents", "unlock_rom_vitruvian_scorpion_joints_free_xp_cents", "unlock_rom_weak_rope_spring_free_xp_cents", "unlock_rom_winch_crank_free_xp_cents", "unlock_rom_windlass_crank_free_xp_cents", "unlock_rom_wolf_pelt_black_beta_free_xp_cents", "unlock_rom_wolf_pelt_grey_free_xp_cents", "unlock_rom_wooden_crank_free_xp_cents", "purchase_colour_pack_pack_1_expensive_single_gold", "purchase_colour_pack_pack_1_expensive_single_gold_2", "purchase_colour_pack_pack_1_expensive_single_silver", "purchase_colour_pack_pack_1_expensive_triple_gold", "purchase_colour_pack_pack_1_medium_single_gold", "purchase_colour_pack_pack_1_medium_single_silver", "purchase_colour_pack_pack_1_medium_triple_gold", "purchase_colour_pack_pack_premium_a", "purchase_colour_pack_pack_silver_a", "purchase_colour_pack_single_premium_a", "purchase_colour_pack_single_silver_a", "purchase_colour_pack_single_silver_b", "player_level_1", "purchase_skin_bar_vercingetorix_bar_vercingetorix_veteran"],
-	"maps": ["alpis_graia", "alps", "capitoline_hill", "capua", "design_flat", "design_slopes", "frontend_1", "frontend_alps_snow", "frontend_barbarian_town", "frontend_carthage_city", "frontend_forest", "frontend_hotgates", "frontend_oasis", "frontend_roman_forum", "frontend_teutoburg", "frontend_vesuvius", "frontend_vineyards", "gergovia", "germania", "hadrians_wall", "marathon", "mycale", "oasis", "officer_training", "passage_of_augustus", "practice_mode", "prototype_1", "prototype_2", "prototype_3", "prototype_4", "prototype_5", "prototype_6", "prototype_7", "recruit_tutorial", "rubicon", "salernum", "teutoburg_forest", "thermopylae", "vesuvius"],
-	"seasons": [{
-		"eagle_currency_id": 6541946732603082519,
-		"season": "Season01",
-		"season_end_epoch_s": 1923952108,
-		"season_start_epoch_s": 1923952107,
-		"seasons": [{
-			"eagle_bonus": false,
-			"eagles_irrevocable": true,
-			"eagles_to_progress": 1,
-			"rank": 0,
-			"rank_irrevocable": true,
-			"rewards": [],
-			"total_eagles_required": 0
-		}, {
-			"eagle_bonus": true,
-			"eagles_irrevocable": true,
-			"eagles_to_progress": 2,
-			"rank": 1,
-			"rank_irrevocable": true,
-			"rewards": [{
-				"item_id": 11942150058037350131,
-				"package_group": "",
-				"quantity": 10000000,
-				"weighting": 0
-			}],
-			"total_eagles_required": 1
-		}, {
-			"eagle_bonus": false,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 4,
-			"rank": 10,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 3336499806987914596,
-				"package_group": "",
-				"quantity": 4320,
-				"weighting": 0
-			}],
-			"total_eagles_required": 24
-		}, {
-			"eagle_bonus": false,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 4,
-			"rank": 11,
-			"rank_irrevocable": true,
-			"rewards": [{
-				"item_id": 4424015466484368322,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 15550218905968039578,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 9810287774589852784,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 6795270456252495600,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}],
-			"total_eagles_required": 28
-		}, {
-			"eagle_bonus": false,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 4,
-			"rank": 12,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 11942150058037350131,
-				"package_group": "",
-				"quantity": 15000000,
-				"weighting": 0
-			}],
-			"total_eagles_required": 32
-		}, {
-			"eagle_bonus": false,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 4,
-			"rank": 13,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 16967678466081757395,
-				"package_group": "",
-				"quantity": 700,
-				"weighting": 0
-			}],
-			"total_eagles_required": 36
-		}, {
-			"eagle_bonus": false,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 4,
-			"rank": 14,
-			"rank_irrevocable": true,
-			"rewards": [{
-				"item_id": 3336499806987914596,
-				"package_group": "",
-				"quantity": 4320,
-				"weighting": 0
-			}, {
-				"item_id": 10368629467366931557,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 16226711970857599577,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 8516426996960578590,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 8695969981573059375,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}],
-			"total_eagles_required": 40
-		}, {
-			"eagle_bonus": false,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 5,
-			"rank": 15,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 16967678466081757395,
-				"package_group": "",
-				"quantity": 500,
-				"weighting": 0
-			}],
-			"total_eagles_required": 44
-		}, {
-			"eagle_bonus": false,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 5,
-			"rank": 16,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 16967678466081757395,
-				"package_group": "",
-				"quantity": 400,
-				"weighting": 0
-			}],
-			"total_eagles_required": 49
-		}, {
-			"eagle_bonus": false,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 5,
-			"rank": 17,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 11942150058037350131,
-				"package_group": "",
-				"quantity": 20000000,
-				"weighting": 0
-			}],
-			"total_eagles_required": 54
-		}, {
-			"eagle_bonus": false,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 5,
-			"rank": 18,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 6156198073706817429,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 5788432597837010481,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 16779378653302481627,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 4724591737787942172,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}],
-			"total_eagles_required": 59
-		}, {
-			"eagle_bonus": false,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 0,
-			"rank": 19,
-			"rank_irrevocable": true,
-			"rewards": [{
-				"item_id": 16967678466081757395,
-				"package_group": "",
-				"quantity": 50000,
-				"weighting": 0
-			}, {
-				"item_id": 3336499806987914596,
-				"package_group": "",
-				"quantity": 7200,
-				"weighting": 0
-			}, {
-				"item_id": 11942150058037350131,
-				"package_group": "",
-				"quantity": 30000000,
-				"weighting": 0
-			}, {
-				"item_id": 5265308860344334937,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 4876157812476713347,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 17825410154445298857,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 11283527635361130452,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}],
-			"total_eagles_required": 64
-		}, {
-			"eagle_bonus": true,
-			"eagles_irrevocable": true,
-			"eagles_to_progress": 2,
-			"rank": 2,
-			"rank_irrevocable": true,
-			"rewards": [{
-				"item_id": 8866453028756730808,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 445539792789403336,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}],
-			"total_eagles_required": 3
-		}, {
-			"eagle_bonus": true,
-			"eagles_irrevocable": true,
-			"eagles_to_progress": 2,
-			"rank": 3,
-			"rank_irrevocable": true,
-			"rewards": [{
-				"item_id": 6808142264440691153,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}, {
-				"item_id": 2371030687257110927,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}],
-			"total_eagles_required": 5
-		}, {
-			"eagle_bonus": true,
-			"eagles_irrevocable": true,
-			"eagles_to_progress": 2,
-			"rank": 4,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 3336499806987914596,
-				"package_group": "",
-				"quantity": 1440,
-				"weighting": 0
-			}],
-			"total_eagles_required": 7
-		}, {
-			"eagle_bonus": true,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 3,
-			"rank": 5,
-			"rank_irrevocable": true,
-			"rewards": [{
-				"item_id": 3726287068595516808,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}],
-			"total_eagles_required": 9
-		}, {
-			"eagle_bonus": true,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 3,
-			"rank": 6,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 1451621666446439262,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}],
-			"total_eagles_required": 12
-		}, {
-			"eagle_bonus": true,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 3,
-			"rank": 7,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 3875128171808849728,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}],
-			"total_eagles_required": 15
-		}, {
-			"eagle_bonus": true,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 3,
-			"rank": 8,
-			"rank_irrevocable": true,
-			"rewards": [{
-				"item_id": 2825268696297319838,
-				"package_group": "",
-				"quantity": 1,
-				"weighting": 0
-			}],
-			"total_eagles_required": 18
-		}, {
-			"eagle_bonus": true,
-			"eagles_irrevocable": false,
-			"eagles_to_progress": 3,
-			"rank": 9,
-			"rank_irrevocable": false,
-			"rewards": [{
-				"item_id": 16967678466081757395,
-				"package_group": "",
-				"quantity": 10000,
-				"weighting": 0
-			}],
-			"total_eagles_required": 21
-		}]
-	}],
-	"server_config": [{
-		"key": "battle_config",
-		"value": {
-			"afk_time_s": 180
-		}
-	}]
+  "default_profile": [
+    "tier_1_bar_ambiorix_cxp",
+    "tier_1_bar_arminius_cxp",
+    "tier_1_bar_boudica_cxp",
+    "tier_1_bar_caratacus_cxp",
+    "tier_1_bar_vercingetorix_cxp",
+    "tier_1_car_hannibal_cxp",
+    "tier_1_car_hasdrubal_cxp",
+    "tier_1_chi_cao_cao_cxp",
+    "tier_1_chi_dong_zhuo_cxp",
+    "tier_1_chi_guan_yu_cxp",
+    "tier_1_chi_liu_bei_cxp",
+    "tier_1_chi_lu_bu_cxp",
+    "tier_1_chi_sun_ren_cxp",
+    "tier_1_chi_zhuge_liang_cxp",
+    "tier_1_gla_crixus_cxp",
+    "tier_1_gla_spartacus_cxp",
+    "tier_1_gre_alexander_cxp",
+    "tier_1_gre_cynane_cxp",
+    "tier_1_gre_epaminondas_cxp",
+    "tier_1_gre_eumenes_cxp",
+    "tier_1_gre_leonidas_cxp",
+    "tier_1_gre_miltiades_cxp",
+    "tier_1_gre_pyrrhus_cxp",
+    "tier_1_gre_seleucus_cxp",
+    "tier_1_per_cyrus_cxp",
+    "tier_1_per_xerxes_cxp",
+    "tier_1_rom_augustus_cxp",
+    "tier_1_rom_caesar_cxp",
+    "tier_1_rom_germanicus_cxp",
+    "tier_1_rom_marcus_aurelius_cxp",
+    "tier_1_rom_marius_cxp",
+    "tier_1_rom_scipio_cxp",
+    "tier_1_rom_sulla_cxp",
+    "tier_1_rom_trajan_cxp",
+    "purchase_bar_arminius_free_xp_cents",
+    "purchase_car_hasdrubal_free_xp_cents",
+    "purchase_gre_cynane_free_xp_cents",
+    "purchase_rom_germanicus_free_xp_cents",
+    "purchase_rom_arverni_bar_riders_free_xp_cents",
+    "purchase_rom_arverni_bar_tribesmen_free_xp_cents",
+    "purchase_rom_carthage_car_mercenary_rabble_free_xp_cents",
+    "purchase_rom_china_chi_conscript_cavalry_free_xp_cents",
+    "purchase_rom_china_chi_peasant_rabble_free_xp_cents",
+    "purchase_rom_gladiators_gla_escaped_gladiators_free_xp_cents",
+    "purchase_rom_athens_gre_mycenaean_archers_free_xp_cents",
+    "purchase_rom_athens_gre_mycenaean_hoplites_free_xp_cents",
+    "purchase_rom_persia_per_paighan_band_free_xp_cents",
+    "purchase_rom_rome_rom_pedites_free_xp_cents",
+    "purchase_rom_rome_rom_tirones_free_xp_cents",
+    "unlock_archer_arrow_free_xp_cents",
+    "unlock_archer_dagger_free_xp_cents",
+    "unlock_bar_armour_leather_basic_free_xp_cents",
+    "unlock_bar_armour_leather_chosen_free_xp_cents",
+    "unlock_bar_armour_leather_dacian_free_xp_cents",
+    "unlock_bar_armour_leather_female_boiled_free_xp_cents",
+    "unlock_bar_armour_leather_feral_free_xp_cents",
+    "unlock_bar_armour_leather_warrior_free_xp_cents",
+    "unlock_bar_bow_cernunnos_free_xp_cents",
+    "unlock_bar_bow_great_free_xp_cents",
+    "unlock_bar_bow_hunting_free_xp_cents",
+    "unlock_bar_bow_simple_free_xp_cents",
+    "unlock_bar_bow_warrior_night_free_xp_cents",
+    "unlock_bar_braids_free_xp_cents",
+    "unlock_bar_braids_knotted_free_xp_cents",
+    "unlock_bar_braids_simple_free_xp_cents",
+    "unlock_bar_buckler_splintered_free_xp_cents",
+    "unlock_bar_chainmail_noble_free_xp_cents",
+    "unlock_bar_chainmail_proven_free_xp_cents",
+    "unlock_bar_chainmail_warrior_free_xp_cents",
+    "unlock_bar_chest_bare_low_free_xp_cents",
+    "unlock_bar_chest_bare_med_free_xp_cents",
+    "unlock_bar_coolus_free_xp_cents",
+    "unlock_bar_falx_common_free_xp_cents",
+    "unlock_bar_hair_limewash_tousled_free_xp_cents",
+    "unlock_bar_hood_hunting_free_xp_cents",
+    "unlock_bar_hood_warrior_night_free_xp_cents",
+    "unlock_bar_knots_free_xp_cents",
+    "unlock_bar_knots_noble_free_xp_cents",
+    "unlock_bar_knots_warrior_free_xp_cents",
+    "unlock_bar_knots_wild_free_xp_cents",
+    "unlock_bar_locks_scrappy_free_xp_cents",
+    "unlock_bar_locks_unkempt_free_xp_cents",
+    "unlock_bar_locks_wild_free_xp_cents",
+    "unlock_bar_loincloth_free_xp_cents",
+    "unlock_bar_longsword_free_xp_cents",
+    "unlock_bar_longsword_runed_free_xp_cents",
+    "unlock_bar_mantle_leather_free_xp_cents",
+    "unlock_bar_mantle_sheep_free_xp_cents",
+    "unlock_bar_mantle_wolf_free_xp_cents",
+    "unlock_bar_naked_free_xp_cents",
+    "unlock_bar_no_greaves_free_xp_cents",
+    "unlock_bar_no_shield_free_xp_cents",
+    "unlock_bar_romphaphia_free_xp_cents",
+    "unlock_bar_sandals_free_xp_cents",
+    "unlock_bar_shield_hex_free_xp_cents",
+    "unlock_bar_shield_hex_damaged_free_xp_cents",
+    "unlock_bar_shield_oval_free_xp_cents",
+    "unlock_bar_shield_oval_cracked_free_xp_cents",
+    "unlock_bar_shield_oval_strong_free_xp_cents",
+    "unlock_bar_shortsword_simple_free_xp_cents",
+    "unlock_bar_spear_bronze_split_free_xp_cents",
+    "unlock_bar_spear_heavy_free_xp_cents",
+    "unlock_bar_spear_long_gnarled_free_xp_cents",
+    "unlock_bar_sword_bronze_dented_free_xp_cents",
+    "unlock_bar_sword_iron_simple_free_xp_cents",
+    "unlock_bar_trousers_patchwork_shabby_free_xp_cents",
+    "unlock_bar_trousers_patchwork_worn_free_xp_cents",
+    "unlock_bar_trousers_standard_free_xp_cents",
+    "unlock_bar_trousers_warrior_night_free_xp_cents",
+    "unlock_bar_tunic_basic_free_xp_cents",
+    "unlock_bar_tunic_female_basic_free_xp_cents",
+    "unlock_bar_tunic_female_noble_free_xp_cents",
+    "unlock_bar_tunic_ragged_free_xp_cents",
+    "unlock_bar_warpaint_rider_free_xp_cents",
+    "unlock_bonus_vs_cav_free_xp_cents",
+    "unlock_caesar_banner_free_xp_cents",
+    "unlock_car_armour_disc_discounted_free_xp_cents",
+    "unlock_car_armour_disc_sturdy_free_xp_cents",
+    "unlock_car_boeotian_mercenary_free_xp_cents",
+    "unlock_car_boeotian_mercenary_distinguished_free_xp_cents",
+    "unlock_car_cap_iberian_fitted_free_xp_cents",
+    "unlock_car_catera_iberian_majestic_free_xp_cents",
+    "unlock_car_catera_rebel_free_xp_cents",
+    "unlock_car_chested_bare_free_xp_cents",
+    "unlock_car_coolus_gallic_blessed_free_xp_cents",
+    "unlock_car_cuirass_wealthy_free_xp_cents",
+    "unlock_car_elephant_armour_majestic_plate_free_xp_cents",
+    "unlock_car_elephant_armour_padding_free_xp_cents",
+    "unlock_car_elephant_armour_strong_plate_free_xp_cents",
+    "unlock_car_elephant_armour_war_free_xp_cents",
+    "unlock_car_falcata_mercenary_affordable_free_xp_cents",
+    "unlock_car_falcata_mercenary_balanced_free_xp_cents",
+    "unlock_car_greaves_fitted_free_xp_cents",
+    "unlock_car_greaves_greek_free_xp_cents",
+    "unlock_car_greaves_no_free_xp_cents",
+    "unlock_car_greaves_numidian_free_xp_cents",
+    "unlock_car_greaves_samnite_free_xp_cents",
+    "unlock_car_greaves_sterling_free_xp_cents",
+    "unlock_car_headwrap_glorious_free_xp_cents",
+    "unlock_car_helmet_no_free_xp_cents",
+    "unlock_car_hood_feral_free_xp_cents",
+    "unlock_car_hoplon_carthaginian_budget_free_xp_cents",
+    "unlock_car_hoplon_carthaginian_busted_free_xp_cents",
+    "unlock_car_hoplon_carthaginian_majestic_free_xp_cents",
+    "unlock_car_hoplon_carthaginian_scavenged_free_xp_cents",
+    "unlock_car_hoplon_carthaginian_simple_free_xp_cents",
+    "unlock_car_hoplon_carthaginian_sturdy_free_xp_cents",
+    "unlock_car_hoplon_majestic_free_xp_cents",
+    "unlock_car_howdah_basic_free_xp_cents",
+    "unlock_car_howdah_mighty_free_xp_cents",
+    "unlock_car_javelin_carthaginian_basic_free_xp_cents",
+    "unlock_car_linothorax_carthaginian_discounted_free_xp_cents",
+    "unlock_car_linothorax_carthaginian_distinguished_free_xp_cents",
+    "unlock_car_linothorax_gallic_barbaric_free_xp_cents",
+    "unlock_car_linothorax_gallic_formidable_free_xp_cents",
+    "unlock_car_linothorax_mercenary_free_xp_cents",
+    "unlock_car_longsword_barbaric_free_xp_cents",
+    "unlock_car_montefortino_gallic_blessed_free_xp_cents",
+    "unlock_car_phrygian_mercenary_exceptional_free_xp_cents",
+    "unlock_car_phrygian_mercenary_quality_free_xp_cents",
+    "unlock_car_pylos_mercenary_modest_free_xp_cents",
+    "unlock_car_pylos_mercenary_quality_free_xp_cents",
+    "unlock_car_pylos_mercenary_scavenged_free_xp_cents",
+    "unlock_car_pylos_mercenary_simple_free_xp_cents",
+    "unlock_car_scutum_mercenary_exceptional_free_xp_cents",
+    "unlock_car_scutum_mercenary_majestic_free_xp_cents",
+    "unlock_car_shield_animal-skin_decorative_free_xp_cents",
+    "unlock_car_shield_animal-skin_elite_free_xp_cents",
+    "unlock_car_shield_animal-skin_sturdy_free_xp_cents",
+    "unlock_car_shield_oval_barbaric_free_xp_cents",
+    "unlock_car_shield_oval_carthaginian_budget_free_xp_cents",
+    "unlock_car_shield_oval_carthaginian_expensive_free_xp_cents",
+    "unlock_car_shield_oval_carthaginian_sturdy_free_xp_cents",
+    "unlock_car_shield_wooden_gallic_reinforced_free_xp_cents",
+    "unlock_car_spear_barbarian_gnarled_free_xp_cents",
+    "unlock_car_spear_cavalry_free_xp_cents",
+    "unlock_car_spear_cavalry_balanced_free_xp_cents",
+    "unlock_car_spear_mercenary_affordable_free_xp_cents",
+    "unlock_car_spear_mercenary_balanced_free_xp_cents",
+    "unlock_car_spear_mercenary_decent_free_xp_cents",
+    "unlock_car_spear_mercenary_exquisite_free_xp_cents",
+    "unlock_car_spear_mercenary_refined_free_xp_cents",
+    "unlock_car_spear_numidian_free_xp_cents",
+    "unlock_car_spear_numidian_refined_free_xp_cents",
+    "unlock_car_spear_scavenged_free_xp_cents",
+    "unlock_car_thracian_mercenary_admirable_free_xp_cents",
+    "unlock_car_thracian_mercenary_decent_free_xp_cents",
+    "unlock_car_thracian_mercenary_modest_free_xp_cents",
+    "unlock_car_trousers_bound_free_xp_cents",
+    "unlock_car_trousers_hunting_free_xp_cents",
+    "unlock_car_tunic_african_basic_free_xp_cents",
+    "unlock_car_tunic_african_sublime_free_xp_cents",
+    "unlock_car_tunic_iberian_fine_free_xp_cents",
+    "unlock_car_tunic_phoenician_basic_free_xp_cents",
+    "unlock_car_tunic_phoenician_thick_free_xp_cents",
+    "unlock_car_tusk_mighty_blades_free_xp_cents",
+    "unlock_car_tusk_tusks_free_xp_cents",
+    "unlock_car_tusk_vicious_blades_free_xp_cents",
+    "unlock_chi_armour_leather_common_free_xp_cents",
+    "unlock_chi_crossbow_common_free_xp_cents",
+    "unlock_chi_crossbow_repeating_elaborate_free_xp_cents",
+    "unlock_chi_dao_common_free_xp_cents",
+    "unlock_chi_hat_leather_elaborate_free_xp_cents",
+    "unlock_chi_headwrap_ruffians_free_xp_cents",
+    "unlock_chi_helmet_basic_free_xp_cents",
+    "unlock_chi_helmet_no_free_xp_cents",
+    "unlock_chi_ji_common_free_xp_cents",
+    "unlock_chi_jian_basic_free_xp_cents",
+    "unlock_chi_leg_wraps_common_free_xp_cents",
+    "unlock_chi_no_shield_free_xp_cents",
+    "unlock_chi_polearm_basic_free_xp_cents",
+    "unlock_chi_shield_basic_free_xp_cents",
+    "unlock_chi_shield_large_protective_free_xp_cents",
+    "unlock_chi_spear_common_free_xp_cents",
+    "unlock_chi_tunic_peasant_free_xp_cents",
+    "unlock_commander_offhand_free_xp_cents",
+    "unlock_commander_shield_free_xp_cents",
+    "unlock_crixus_l_hand_shield_free_xp_cents",
+    "unlock_default_helmet_hook_free_xp_cents",
+    "unlock_gla_arm_guard_bloodied_free_xp_cents",
+    "unlock_gla_arm_guard_champions_free_xp_cents",
+    "unlock_gla_arm_guard_contenders_free_xp_cents",
+    "unlock_gla_arm_guard_victors_free_xp_cents",
+    "unlock_gla_arm_pads_bloodied_free_xp_cents",
+    "unlock_gla_arm_protector_champions_grand_free_xp_cents",
+    "unlock_gla_arm_protector_contenders_free_xp_cents",
+    "unlock_gla_buckler_auxiliary_stolen_free_xp_cents",
+    "unlock_gla_buckler_auxiliarys_stolen_free_xp_cents",
+    "unlock_gla_buckler_soldiers_stolen_free_xp_cents",
+    "unlock_gla_cardiophylax_victors_free_xp_cents",
+    "unlock_gla_chest_bare_free_xp_cents",
+    "unlock_gla_gladii_cutters_free_xp_cents",
+    "unlock_gla_gladius_bloodbathed_free_xp_cents",
+    "unlock_gla_gladius_butchers_free_xp_cents",
+    "unlock_gla_gladius_cutters_free_xp_cents",
+    "unlock_gla_gladius_guards_stolen_free_xp_cents",
+    "unlock_gla_gladius_rebels_free_xp_cents",
+    "unlock_gla_gladius_salvaged_free_xp_cents",
+    "unlock_gla_gladius_soldiers_stolen_free_xp_cents",
+    "unlock_gla_greaves_champions_free_xp_cents",
+    "unlock_gla_greaves_no_free_xp_cents",
+    "unlock_gla_greaves_officers_stolen_free_xp_cents",
+    "unlock_gla_hat_shepherds_free_xp_cents",
+    "unlock_gla_head_shaved_free_xp_cents",
+    "unlock_gla_headwrap_menacing_free_xp_cents",
+    "unlock_gla_helmet_murmillo_champions_free_xp_cents",
+    "unlock_gla_helmet_murmillo_entertainers_free_xp_cents",
+    "unlock_gla_helmet_no_free_xp_cents",
+    "unlock_gla_helmet_provocator_contenders_free_xp_cents",
+    "unlock_gla_helmet_provocator_victors_free_xp_cents",
+    "unlock_gla_helmet_samnite_rookies_arena_free_xp_cents",
+    "unlock_gla_helmet_secutor_bloodied_free_xp_cents",
+    "unlock_gla_helmet_secutor_contenders_free_xp_cents",
+    "unlock_gla_helmet_thracian_bloodied_free_xp_cents",
+    "unlock_gla_kitchenware_stolen_free_xp_cents",
+    "unlock_gla_leg_armour_champions_free_xp_cents",
+    "unlock_gla_leg_armour_contenders_free_xp_cents",
+    "unlock_gla_leg_guard_contenders_free_xp_cents",
+    "unlock_gla_leg_pad_bloodied_free_xp_cents",
+    "unlock_gla_lhand_sword_free_xp_cents",
+    "unlock_gla_loincloth_adequate_free_xp_cents",
+    "unlock_gla_loincloth_filthy_free_xp_cents",
+    "unlock_gla_loincloth_ragged_free_xp_cents",
+    "unlock_gla_loincloth_scrappy_free_xp_cents",
+    "unlock_gla_loincloth_stitched_free_xp_cents",
+    "unlock_gla_loincloth_tattered_free_xp_cents",
+    "unlock_gla_neckerchief_dashing_free_xp_cents",
+    "unlock_gla_parma_bloodied_free_xp_cents",
+    "unlock_gla_parma_contenders_free_xp_cents",
+    "unlock_gla_parma_entertainers_free_xp_cents",
+    "unlock_gla_parma_legionary_stolen_free_xp_cents",
+    "unlock_gla_parma_victors_free_xp_cents",
+    "unlock_gla_scutum_bloodied_free_xp_cents",
+    "unlock_gla_scutum_contenders_free_xp_cents",
+    "unlock_gla_scutum_guards_stolen_free_xp_cents",
+    "unlock_gla_scutum_makeshift_free_xp_cents",
+    "unlock_gla_scutum_soldiers_stolen_free_xp_cents",
+    "unlock_gla_scutum_training_discarded_free_xp_cents",
+    "unlock_gla_shield_foreign_colourful_free_xp_cents",
+    "unlock_gla_shield_no_free_xp_cents",
+    "unlock_gla_shield_round_makeshift_free_xp_cents",
+    "unlock_gla_shield_wicker_well_woven_free_xp_cents",
+    "unlock_gla_shoulderguard_retiarius_blooded_free_xp_cents",
+    "unlock_gla_sica_mans_condemned_free_xp_cents",
+    "unlock_gla_sica_rookies_arena_free_xp_cents",
+    "unlock_gla_sicae_carvers_free_xp_cents",
+    "unlock_gla_sicae_slaughterers_free_xp_cents",
+    "unlock_gla_sling_shepherds_free_xp_cents",
+    "unlock_gla_spear_soldiers_stolen_free_xp_cents",
+    "unlock_gla_trident_arena_rookies_free_xp_cents",
+    "unlock_gla_trident_beastmasters_free_xp_cents",
+    "unlock_gla_trident_contenders_free_xp_cents",
+    "unlock_gla_trident_goredripped_free_xp_cents",
+    "unlock_gla_trousers_bold_free_xp_cents",
+    "unlock_gla_tunic_defiant_free_xp_cents",
+    "unlock_gla_tunic_hellenic_free_xp_cents",
+    "unlock_gla_tunic_pirates_free_xp_cents",
+    "unlock_gla_tunic_plebeian_filthy_free_xp_cents",
+    "unlock_gla_tunic_shepherds_free_xp_cents",
+    "unlock_gla_tunic_stitched_free_xp_cents",
+    "unlock_gla_tunic_threadbare_free_xp_cents",
+    "unlock_gre_aspis_free_xp_cents",
+    "unlock_gre_aspis_athenian_starter_free_xp_cents",
+    "unlock_gre_aspis_hellenic_free_xp_cents",
+    "unlock_gre_aspis_thureos_free_xp_cents",
+    "unlock_gre_boeotian_free_xp_cents",
+    "unlock_gre_boeotian_classic_free_xp_cents",
+    "unlock_gre_boeotian_hellenic_free_xp_cents",
+    "unlock_gre_bow_archaic_basic_free_xp_cents",
+    "unlock_gre_brimmed_hat_free_xp_cents",
+    "unlock_gre_corinthian_brilliant_free_xp_cents",
+    "unlock_gre_corinthian_classic_free_xp_cents",
+    "unlock_gre_corinthian_hellenic_free_xp_cents",
+    "unlock_gre_corinthian_hellenic_exquisite_free_xp_cents",
+    "unlock_gre_corinthian_simple_free_xp_cents",
+    "unlock_gre_corinthian_thebian_starter_free_xp_cents",
+    "unlock_gre_crescent_shield_free_xp_cents",
+    "unlock_gre_cuirass_classic_companion_free_xp_cents",
+    "unlock_gre_doru_archaic_free_xp_cents",
+    "unlock_gre_doru_archaic_brittle_free_xp_cents",
+    "unlock_gre_doru_classic_free_xp_cents",
+    "unlock_gre_doru_hellenic_free_xp_cents",
+    "unlock_gre_felt_hat_free_xp_cents",
+    "unlock_gre_greaves_agema_free_xp_cents",
+    "unlock_gre_greaves_archaic_free_xp_cents",
+    "unlock_gre_greaves_classic_free_xp_cents",
+    "unlock_gre_greaves_hellenic_free_xp_cents",
+    "unlock_gre_helmet_thracian_free_xp_cents",
+    "unlock_gre_helmet_thracian_lesbos_starter_free_xp_cents",
+    "unlock_gre_hoplon_archaic_athenian_starter_free_xp_cents",
+    "unlock_gre_hoplon_archaic_busted_free_xp_cents",
+    "unlock_gre_hoplon_archaic_macedonian_starter_free_xp_cents",
+    "unlock_gre_hoplon_archaic_simple_free_xp_cents",
+    "unlock_gre_hoplon_classic_agema_spear_starter_free_xp_cents",
+    "unlock_gre_hoplon_hellenic_free_xp_cents",
+    "unlock_gre_hoplon_hellenic_hypaspists_starter_free_xp_cents",
+    "unlock_gre_kontos_free_xp_cents",
+    "unlock_gre_kopis_free_xp_cents",
+    "unlock_gre_linothorax_archaic_scrappy_free_xp_cents",
+    "unlock_gre_linothorax_classic_agema_cavalry_starter_free_xp_cents",
+    "unlock_gre_linothorax_hellenic_free_xp_cents",
+    "unlock_gre_phrygian_classic_free_xp_cents",
+    "unlock_gre_phrygian_hellenic_free_xp_cents",
+    "unlock_gre_pylos_free_xp_cents",
+    "unlock_gre_pylos_grand_free_xp_cents",
+    "unlock_gre_pylos_simple_free_xp_cents",
+    "unlock_gre_sarissa_free_xp_cents",
+    "unlock_gre_sarissa_athenian_free_xp_cents",
+    "unlock_gre_sarissa_hellenic_free_xp_cents",
+    "unlock_gre_scale_legs_free_xp_cents",
+    "unlock_gre_sling_hellenic_free_xp_cents",
+    "unlock_gre_sling_simple_free_xp_cents",
+    "unlock_gre_tunic_archaic_shabby_free_xp_cents",
+    "unlock_gre_xyston_free_xp_cents",
+    "unlock_gre_xyston_agema_free_xp_cents",
+    "unlock_gre_xyston_companion_free_xp_cents",
+    "unlock_gre_xyston_hellenic_free_xp_cents",
+    "unlock_greek_hair_greek_free_xp_cents",
+    "unlock_guan_yu_glaive_free_xp_cents",
+    "unlock_lu_bu_glaive_free_xp_cents",
+    "unlock_no_greaves_greek_free_xp_cents",
+    "unlock_no_greaves_roman_free_xp_cents",
+    "unlock_no_harness_free_xp_cents",
+    "unlock_no_helmet_free_xp_cents",
+    "unlock_no_shield_greek_free_xp_cents",
+    "unlock_no_training_free_xp_cents",
+    "unlock_per_armour_horse_lamellar_noble_free_xp_cents",
+    "unlock_per_armour_horse_lamellar_persian_free_xp_cents",
+    "unlock_per_armour_horse_scale_flexible_free_xp_cents",
+    "unlock_per_armour_horse_scale_revered_free_xp_cents",
+    "unlock_per_armour_leather_fine_free_xp_cents",
+    "unlock_per_armour_leather_light_free_xp_cents",
+    "unlock_per_aspis_great_free_xp_cents",
+    "unlock_per_bandana_free_xp_cents",
+    "unlock_per_cap_eastern_free_xp_cents",
+    "unlock_per_chainmail_warriors_free_xp_cents",
+    "unlock_per_cuirass_scale_heavy_free_xp_cents",
+    "unlock_per_doru_forged_great_free_xp_cents",
+    "unlock_per_garb_worn_free_xp_cents",
+    "unlock_per_greaves_leather_free_xp_cents",
+    "unlock_per_head-dress_keffiyeh_free_xp_cents",
+    "unlock_per_head-dress_simple_free_xp_cents",
+    "unlock_per_helm_guardsman_free_xp_cents",
+    "unlock_per_helmet_bow_free_xp_cents",
+    "unlock_per_helmet_parthian_great_free_xp_cents",
+    "unlock_per_helmet_ridge_free_xp_cents",
+    "unlock_per_horse_parthian_free_xp_cents",
+    "unlock_per_kontos_balanced_free_xp_cents",
+    "unlock_per_kontos_classic_free_xp_cents",
+    "unlock_per_kontos_crude_free_xp_cents",
+    "unlock_per_kontos_elite_free_xp_cents",
+    "unlock_per_kontos_streamlined_free_xp_cents",
+    "unlock_per_lamellar_chain_free_xp_cents",
+    "unlock_per_lamellar_clibanarii_free_xp_cents",
+    "unlock_per_lamellar_exceptional_free_xp_cents",
+    "unlock_per_lamellar_manica_fine_free_xp_cents",
+    "unlock_per_lamellar_noble_free_xp_cents",
+    "unlock_per_lamellar_standard_free_xp_cents",
+    "unlock_per_leathers_chainmail_free_xp_cents",
+    "unlock_per_legs_chainmail_free_xp_cents",
+    "unlock_per_legs_scale_fitted_free_xp_cents",
+    "unlock_per_mail_splint_iron_free_xp_cents",
+    "unlock_per_overcoat_sogdian_free_xp_cents",
+    "unlock_per_pitchfork_free_xp_cents",
+    "unlock_per_quntariya_epic_free_xp_cents",
+    "unlock_per_shield_oval_pilfered_free_xp_cents",
+    "unlock_per_shield_rectangular_hellenic_free_xp_cents",
+    "unlock_per_shield_round_exceptional_free_xp_cents",
+    "unlock_per_shield_round_raiders_plain_free_xp_cents",
+    "unlock_per_shield_wicker_simple_free_xp_cents",
+    "unlock_per_spangenhelm_armenian_free_xp_cents",
+    "unlock_per_spangenhelm_armenian_light_free_xp_cents",
+    "unlock_per_spangenhelm_light_free_xp_cents",
+    "unlock_per_spangenhelm_nasal_free_xp_cents",
+    "unlock_per_spangenhelm_opulent_free_xp_cents",
+    "unlock_per_spara_conscripts_free_xp_cents",
+    "unlock_per_spara_functional_free_xp_cents",
+    "unlock_per_spara_tower_distinguished_free_xp_cents",
+    "unlock_per_spara_tower_sturdy_free_xp_cents",
+    "unlock_per_spara_wicker_shoddy_free_xp_cents",
+    "unlock_per_spear_achaemenid_free_xp_cents",
+    "unlock_per_spear_butted_apple_free_xp_cents",
+    "unlock_per_spear_butted_iron_free_xp_cents",
+    "unlock_per_spear_clibanarii_masterwork_free_xp_cents",
+    "unlock_per_spear_conscripts_free_xp_cents",
+    "unlock_per_spear_parthian_refined_free_xp_cents",
+    "unlock_per_spear_parthian_standard_free_xp_cents",
+    "unlock_per_spear_raiders_basic_free_xp_cents",
+    "unlock_per_spear_raiders_refined_free_xp_cents",
+    "unlock_per_spear_tipped_copper_free_xp_cents",
+    "unlock_per_spear_veterans_free_xp_cents",
+    "unlock_per_spear_warriors_free_xp_cents",
+    "unlock_per_trousers_bound_free_xp_cents",
+    "unlock_per_trousers_bound_heavy_free_xp_cents",
+    "unlock_per_trousers_heavy_free_xp_cents",
+    "unlock_per_trousers_noble_free_xp_cents",
+    "unlock_per_trousers_noble_boastful_free_xp_cents",
+    "unlock_per_trousers_parthian_worn_free_xp_cents",
+    "unlock_per_trousers_persian_free_xp_cents",
+    "unlock_per_trousers_persian_light_free_xp_cents",
+    "unlock_per_trousers_riding_free_xp_cents",
+    "unlock_per_trousers_workers_free_xp_cents",
+    "unlock_per_trousers_workers_comfy_free_xp_cents",
+    "unlock_per_tunic_chainmail_light_free_xp_cents",
+    "unlock_per_tunic_leather_free_xp_cents",
+    "unlock_per_tunic_nice_free_xp_cents",
+    "unlock_per_tunic_riders_simple_free_xp_cents",
+    "unlock_per_tunic_warriors_basic_free_xp_cents",
+    "unlock_per_vambraces_lamellar_guardsmans_free_xp_cents",
+    "unlock_premium_unit_arrow_free_xp_cents",
+    "unlock_premium_unit_bow_free_xp_cents",
+    "unlock_premium_unit_lhand_sword_free_xp_cents",
+    "unlock_premium_unit_pilum_free_xp_cents",
+    "unlock_premium_unit_shield_free_xp_cents",
+    "unlock_premium_unit_spear_free_xp_cents",
+    "unlock_premium_unit_sword_free_xp_cents",
+    "unlock_rom_apollonian_calculation_tables_free_xp_cents",
+    "unlock_rom_augustan_bolts_free_xp_cents",
+    "unlock_rom_augustan_calculation_tables_free_xp_cents",
+    "unlock_rom_augustan_frame_free_xp_cents",
+    "unlock_rom_augustan_joints_free_xp_cents",
+    "unlock_rom_augustan_windlass_crank_free_xp_cents",
+    "unlock_rom_ballista_joints_free_xp_cents",
+    "unlock_rom_basic_joints_free_xp_cents",
+    "unlock_rom_basic_light_artillery_frame_free_xp_cents",
+    "unlock_rom_boeotian_strengthened_free_xp_cents",
+    "unlock_rom_cavalry_helmet_free_xp_cents",
+    "unlock_rom_chestplate_basic_free_xp_cents",
+    "unlock_rom_coolus_free_xp_cents",
+    "unlock_rom_cuirass_imperial_free_xp_cents",
+    "unlock_rom_cuirass_muscle_free_xp_cents",
+    "unlock_rom_cuirass_plain_free_xp_cents",
+    "unlock_rom_discens_toolkit_free_xp_cents",
+    "unlock_rom_estimated_calculations_free_xp_cents",
+    "unlock_rom_exact_vitruvian_ballista_frame_free_xp_cents",
+    "unlock_rom_gladius_battle_scarred_free_xp_cents",
+    "unlock_rom_gladius_eagle_starter_free_xp_cents",
+    "unlock_rom_gladius_fine_free_xp_cents",
+    "unlock_rom_gladius_fulham_free_xp_cents",
+    "unlock_rom_gladius_mainz_free_xp_cents",
+    "unlock_rom_gladius_pompeii_free_xp_cents",
+    "unlock_rom_greaves_augustan_free_xp_cents",
+    "unlock_rom_greaves_cavalry_free_xp_cents",
+    "unlock_rom_greaves_imperial_superior_free_xp_cents",
+    "unlock_rom_greaves_light_free_xp_cents",
+    "unlock_rom_greaves_republican_free_xp_cents",
+    "unlock_rom_helmet_palatini_free_xp_cents",
+    "unlock_rom_imperial_ballista_ammunition_free_xp_cents",
+    "unlock_rom_imperial_ballista_frame_free_xp_cents",
+    "unlock_rom_imperial_bolts_free_xp_cents",
+    "unlock_rom_imperial_scorpion_frame_free_xp_cents",
+    "unlock_rom_imperial_segmentata_free_xp_cents",
+    "unlock_rom_imperial_toolkit_free_xp_cents",
+    "unlock_rom_italic_free_xp_cents",
+    "unlock_rom_javelin_imperial_free_xp_cents",
+    "unlock_rom_javelin_republican_brittle_free_xp_cents",
+    "unlock_rom_light_ballista_ammunition_free_xp_cents",
+    "unlock_rom_light_ballista_frame_free_xp_cents",
+    "unlock_rom_light_bolts_free_xp_cents",
+    "unlock_rom_lion_pelt_free_xp_cents",
+    "unlock_rom_lorica_hamata_basic_free_xp_cents",
+    "unlock_rom_lorica_hamata_dense_free_xp_cents",
+    "unlock_rom_lorica_segmentata_free_xp_cents",
+    "unlock_rom_lorica_segmentata_eagle_starter_free_xp_cents",
+    "unlock_rom_lorica_squamata_free_xp_cents",
+    "unlock_rom_military_issue_ammunition_free_xp_cents",
+    "unlock_rom_montefortino_late_free_xp_cents",
+    "unlock_rom_montefortino_simple_free_xp_cents",
+    "unlock_rom_pectorale_free_xp_cents",
+    "unlock_rom_scavenged_ammunition_free_xp_cents",
+    "unlock_rom_scorpion_bolts_free_xp_cents",
+    "unlock_rom_scorpion_crew_toolkit_free_xp_cents",
+    "unlock_rom_scorpion_frame_free_xp_cents",
+    "unlock_rom_scutum_augustan_masterwork_free_xp_cents",
+    "unlock_rom_scutum_augustan_sturdy_free_xp_cents",
+    "unlock_rom_scutum_augustan_superior_free_xp_cents",
+    "unlock_rom_scutum_eagle_free_xp_cents",
+    "unlock_rom_scutum_imperial_free_xp_cents",
+    "unlock_rom_scutum_large_free_xp_cents",
+    "unlock_rom_scutum_republican_reinforced_free_xp_cents",
+    "unlock_rom_scutum_republican_worn_free_xp_cents",
+    "unlock_rom_shield_oval_free_xp_cents",
+    "unlock_rom_shield_oval_superior_free_xp_cents",
+    "unlock_rom_shield_round_cracked_free_xp_cents",
+    "unlock_rom_simple_frame_free_xp_cents",
+    "unlock_rom_spatha_balanced_free_xp_cents",
+    "unlock_rom_spear_cavalry_free_xp_cents",
+    "unlock_rom_spear_cavalry_legionary_starter_free_xp_cents",
+    "unlock_rom_standard_frame_free_xp_cents",
+    "unlock_rom_standard_joints_free_xp_cents",
+    "unlock_rom_standard_rope_spring_free_xp_cents",
+    "unlock_rom_superior_augustan_joints_free_xp_cents",
+    "unlock_rom_superior_ballista_joints_free_xp_cents",
+    "unlock_rom_torsion_spring_free_xp_cents",
+    "unlock_rom_tunic_military_cloaked_free_xp_cents",
+    "unlock_rom_tunic_military_thick_free_xp_cents",
+    "unlock_rom_tunic_plebian_free_xp_cents",
+    "unlock_rom_tunic_ragged_free_xp_cents",
+    "unlock_rom_vespa_frame_free_xp_cents",
+    "unlock_rom_vitruvian_ammunition_free_xp_cents",
+    "unlock_rom_vitruvian_ballista_ammunition_free_xp_cents",
+    "unlock_rom_vitruvian_ballista_joints_free_xp_cents",
+    "unlock_rom_vitruvian_onager_frame_free_xp_cents",
+    "unlock_rom_vitruvian_scorpion_frame_free_xp_cents",
+    "unlock_rom_vitruvian_scorpion_joints_free_xp_cents",
+    "unlock_rom_weak_rope_spring_free_xp_cents",
+    "unlock_rom_winch_crank_free_xp_cents",
+    "unlock_rom_windlass_crank_free_xp_cents",
+    "unlock_rom_wolf_pelt_black_beta_free_xp_cents",
+    "unlock_rom_wolf_pelt_grey_free_xp_cents",
+    "unlock_rom_wooden_crank_free_xp_cents",
+    "unlock_spartacus_lhand_sword_free_xp_cents",
+    "unlock_zhuge_liang_fan_free_xp_cents",
+    "player_level_1"
+  ],
+  "frontend_version": 1,
+  "maps": [
+    "alpis_graia",
+    "alpis_graia_territory",
+    "alps",
+    "alps_territory",
+    "capitoline_hill",
+    "capitoline_hill_territory",
+    "capua",
+    "capua_territory",
+    "changban",
+    "changban_territory",
+    "design_flat",
+    "design_flat_territory",
+    "design_slopes",
+    "design_slopes_territory",
+    "gergovia",
+    "gergovia_territory",
+    "germania",
+    "germania_territory",
+    "hadrians_wall",
+    "hadrians_wall_territory",
+    "marathon",
+    "marathon_territory",
+    "mycale",
+    "mycale_territory",
+    "oasis",
+    "oasis_territory",
+    "officer_training",
+    "officer_training_territory",
+    "passage_of_augustus",
+    "passage_of_augustus_territory",
+    "practice_mode",
+    "practice_mode_territory",
+    "prototype_1",
+    "prototype_2",
+    "prototype_3",
+    "prototype_4",
+    "prototype_5",
+    "prototype_6",
+    "prototype_7",
+    "recruit_tutorial",
+    "red_cliffs",
+    "rubicon",
+    "rubicon_territory",
+    "salernum",
+    "salernum_territory",
+    "teutoburg_forest",
+    "teutoburg_forest_territory",
+    "thermopylae",
+    "thermopylae_territory",
+    "vesuvius",
+    "vesuvius_territory"
+  ],
+  "packages": [
+    {
+      "name": "mission_00",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 100000,
+          "weighting": 0
+        },
+        {
+          "item_id": 9489076361747837000,
+          "package_group": "",
+          "quantity": 1,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_commander_trial",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 100000,
+          "weighting": 0
+        },
+        {
+          "item_id": 3336499806987915000,
+          "package_group": "",
+          "quantity": 1440,
+          "weighting": 0
+        },
+        {
+          "item_id": 630099746992321700,
+          "package_group": "",
+          "quantity": 1,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_dmg_large",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 300000,
+          "weighting": 0
+        },
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 300000,
+          "weighting": 0
+        },
+        {
+          "item_id": 9489076361747837000,
+          "package_group": "",
+          "quantity": 1,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_dmg_medium",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 200000,
+          "weighting": 0
+        },
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 200000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_dmg_small",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 100000,
+          "weighting": 0
+        },
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 100000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_fxp_cmdr",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 500000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_fxp_fact",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 200000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_kill_large",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 300000,
+          "weighting": 0
+        },
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 300000,
+          "weighting": 0
+        },
+        {
+          "item_id": 9489076361747837000,
+          "package_group": "",
+          "quantity": 1,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_kill_medium",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 200000,
+          "weighting": 0
+        },
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 200000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_kill_small",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 100000,
+          "weighting": 0
+        },
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 100000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_pb_large",
+      "rewards": [
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 600000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_pb_medium",
+      "rewards": [
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 400000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_pb_small",
+      "rewards": [
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 200000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_uxp_large",
+      "rewards": [
+        {
+          "item_id": 9489076361747837000,
+          "package_group": "",
+          "quantity": 3,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_uxp_medium",
+      "rewards": [
+        {
+          "item_id": 9489076361747837000,
+          "package_group": "",
+          "quantity": 2,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_uxp_small",
+      "rewards": [
+        {
+          "item_id": 9489076361747837000,
+          "package_group": "",
+          "quantity": 1,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_wb_large",
+      "rewards": [
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 1500000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_wb_medium",
+      "rewards": [
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 1000000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "mission_wb_small",
+      "rewards": [
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 500000,
+          "weighting": 0
+        }
+      ]
+    },
+    {
+      "name": "ranked_season_00_basic",
+      "rewards": [
+        {
+          "item_id": 6099129279007778000,
+          "package_group": "",
+          "quantity": 100000,
+          "weighting": 0
+        },
+        {
+          "item_id": 11942150058037350000,
+          "package_group": "",
+          "quantity": 100000,
+          "weighting": 0
+        },
+        {
+          "item_id": 9489076361747837000,
+          "package_group": "",
+          "quantity": 1,
+          "weighting": 0
+        }
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "display_name": "ranked_season_00",
+      "eagle_currency_id": 15830169413513010000,
+      "season": "Season00",
+      "season_end_epoch_s": 1596286861,
+      "season_start_epoch_s": 1556672461,
+      "seasons": [
+        {
+          "background": "rankreward-a",
+          "eagle_bonus": false,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 1,
+          "foreground": "rankreward_20",
+          "rank": 0,
+          "rank_irrevocable": false,
+          "reward_package": "",
+          "total_eagles_required": 0
+        },
+        {
+          "background": "rankreward-a",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 2,
+          "foreground": "rankreward_19",
+          "rank": 1,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 1
+        },
+        {
+          "background": "rankreward-c",
+          "eagle_bonus": false,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 4,
+          "foreground": "rankreward_10",
+          "rank": 10,
+          "rank_irrevocable": true,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 24
+        },
+        {
+          "background": "rankreward-c",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 4,
+          "foreground": "rankreward_9",
+          "rank": 11,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 28
+        },
+        {
+          "background": "rankreward-c",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 4,
+          "foreground": "rankreward_8",
+          "rank": 12,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 32
+        },
+        {
+          "background": "rankreward-c",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 4,
+          "foreground": "rankreward_7",
+          "rank": 13,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 36
+        },
+        {
+          "background": "rankreward-c",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 4,
+          "foreground": "rankreward_6",
+          "rank": 14,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 40
+        },
+        {
+          "background": "rankreward-d",
+          "eagle_bonus": false,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 5,
+          "foreground": "rankreward_5",
+          "rank": 15,
+          "rank_irrevocable": true,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 44
+        },
+        {
+          "background": "rankreward-d",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 5,
+          "foreground": "rankreward_4",
+          "rank": 16,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 49
+        },
+        {
+          "background": "rankreward-d",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 5,
+          "foreground": "rankreward_3",
+          "rank": 17,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 54
+        },
+        {
+          "background": "rankreward-d",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 5,
+          "foreground": "rankreward_2",
+          "rank": 18,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 59
+        },
+        {
+          "background": "rankreward-final",
+          "eagle_bonus": false,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 0,
+          "foreground": "rankreward_1",
+          "rank": 19,
+          "rank_irrevocable": true,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 64
+        },
+        {
+          "background": "rankreward-a",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 2,
+          "foreground": "rankreward_18",
+          "rank": 2,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 3
+        },
+        {
+          "background": "rankreward-a",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 2,
+          "foreground": "rankreward_17",
+          "rank": 3,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 5
+        },
+        {
+          "background": "rankreward-a",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 2,
+          "foreground": "rankreward_16",
+          "rank": 4,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 7
+        },
+        {
+          "background": "rankreward-b",
+          "eagle_bonus": false,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 3,
+          "foreground": "rankreward_15",
+          "rank": 5,
+          "rank_irrevocable": true,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 9
+        },
+        {
+          "background": "rankreward-b",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 3,
+          "foreground": "rankreward_14",
+          "rank": 6,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 12
+        },
+        {
+          "background": "rankreward-b",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 3,
+          "foreground": "rankreward_13",
+          "rank": 7,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 15
+        },
+        {
+          "background": "rankreward-b",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 3,
+          "foreground": "rankreward_12",
+          "rank": 8,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 18
+        },
+        {
+          "background": "rankreward-b",
+          "eagle_bonus": true,
+          "eagles_irrevocable": false,
+          "eagles_to_progress": 3,
+          "foreground": "rankreward_11",
+          "rank": 9,
+          "rank_irrevocable": false,
+          "reward_package": "ranked_season_00_basic",
+          "total_eagles_required": 21
+        }
+      ]
+    }
+  ],
+  "server_config": [
+    {
+      "key": "battle_config",
+      "value": {
+        "afk_time_s": 180
+      }
+    }
+  ]
 }
 ```
