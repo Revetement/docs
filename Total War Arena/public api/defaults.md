@@ -5,7 +5,7 @@
 `GET`
 
 ### Sample request
-`https://s3.cn-north-1.amazonaws.com.cn/twa-game-data.arena.neshgameservers.com/defaults/defaults.7E20032889A53731BF83DC7F3C96ADB0.json
+`https://s3.cn-north-1.amazonaws.com.cn/twa-game-data.arena.neshgameservers.com/defaults/defaults.7E20032889A53731BF83DC7F3C96ADB0.json`
 
 ### Sample response
 
