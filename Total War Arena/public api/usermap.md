@@ -1,5 +1,5 @@
 ### URL
-`hhttps://s3.cn-north-1.amazonaws.com.cn/clive-usermap.arena.neshgameservers.com/neteaseid/{NETEASE_PLAYER_ID}`
+`https://s3.cn-north-1.amazonaws.com.cn/clive-usermap.arena.neshgameservers.com/neteaseid/{NETEASE_PLAYER_ID}`
 
 ### METHOD
 `GET`
