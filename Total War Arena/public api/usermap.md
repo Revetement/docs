@@ -1,12 +1,16 @@
 ### URL
-`https://s3-eu-west-1.amazonaws.com/live-usermap.twaservers.com/wgid/{WG_PLAYER_ID}`
+`hhttps://s3.cn-north-1.amazonaws.com.cn/clive-usermap.arena.neshgameservers.com/neteaseid/{NETEASE_PLAYER_ID}`
 
 ### METHOD
 `GET`
 
 ### Sample request
-`https://s3-eu-west-1.amazonaws.com/live-usermap.twaservers.com/wgid/549802864`
+`https://s3.cn-north-1.amazonaws.com.cn/clive-usermap.arena.neshgameservers.com/neteaseid/7406131`
 
 ### Sample response
 
-`a0fab935-613e-51f5-a9b5-d0b6940a144c`
+```json
+{
+  "ca": "cf6a6db5-17f3-560a-97bd-89c5ffe06ec7"
+}
+```
